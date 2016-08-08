@@ -8,6 +8,12 @@ var clean = require('gulp-clean');
 var copy = require('gulp-copy');
 var concat = require('gulp-concat');
 var sass = require('gulp-sass');
+var minifyJs = require('gulp-minify');
+
+/* ENVIRONMENT VARIABLES
+=====================================*/
+var env = process.env.NODE_ENV || 'dev';
+var doMinify = (env == 'live');
 
 /* CLEANUP
 =====================================*/
@@ -102,6 +108,13 @@ gulp.task('concat-js', function() {
         .pipe(concat('all.js'))
         .pipe(gulp.dest(destination));
 
+});
+
+/* MINIFICATION TASKS
+====================================================== */
+
+gulp.task('minify-js', function() {
+    
 });
 
 /* MAIN TASKS
