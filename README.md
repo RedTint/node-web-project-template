@@ -9,6 +9,9 @@ Contains initial folder structure and files to start your Project with NodeJs.
 - [x] install `gulp`
 - [x] install `bower` 
 - [ ] create `build sample` script with `gulp`
+- [x] build: concatenate scripts
+- [ ] build: minify scripts
+- [ ] build: uglify scripts
 - [ ] test clone and build script
 - [ ] fine 'How to Setup / Use' in README
 
