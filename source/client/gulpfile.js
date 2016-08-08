@@ -7,6 +7,7 @@ var gulp = require('gulp');
 var clean = require('gulp-clean');
 var copy = require('gulp-copy');
 var concat = require('gulp-concat');
+var sass = require('gulp-sass');
 
 /* TASKS
 =====================================*/
