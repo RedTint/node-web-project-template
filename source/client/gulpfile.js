@@ -48,19 +48,35 @@ gulp.task('clean', function(){
 
 gulp.task('copy-files', ['clean'], function() { 
 
+    var pipeline = [];
+
+    // SINGLE FILES
+    // ====================================
     var files = [
-        // Dev root folder files
         'dev/app.js',
         'dev/index.html'
     ];
 
-    // remove first folder
+    // exclude first folder
     var options = {
         prefix: 1
     };
 
-    return gulp.src(files)
-        .pipe(copy('./build', options));
+    pipeline.push(
+        gulp.src(files)
+        .pipe(copy('./build', options))
+    );
+
+    // IMAGE FILES
+    // ====================================
+
+    pipeline.push(
+        gulp.src('dev/images/**/*')
+        .pipe(copy('./build', options))
+    );
+
+    return pipeline;
+
 });
 
 /* COMPILE SASS
