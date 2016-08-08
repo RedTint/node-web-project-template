@@ -10,11 +10,13 @@ Contains initial folder structure and files to start your Project with NodeJs.
 - [x] install `bower` 
 - [ ] create `build sample` script with `gulp`
 - [x] build: concatenate scripts
-- [ ] build: minify scripts
-- [ ] build: uglify scripts
+- [x] build: minify scripts
+- [x] build: uglify scripts
 - [ ] test clone and build script
 - [ ] fine 'How to Setup / Use' in README
 
+# Note
+- We don't `concatenate`, `minify` and/or `uglify` server/ scripts.
 
 # Root Folder Structure
 
