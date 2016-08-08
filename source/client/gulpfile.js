@@ -29,7 +29,7 @@ gulp.task('clean', function(){
 
 });
 
-gulp.task('copy-files', function(){ 
+gulp.task('copy-files', ['clean'], function(){ 
 
     var files = [
         // Dev root folder files
@@ -46,7 +46,7 @@ gulp.task('copy-files', function(){
         .pipe(copy('./build', options));
 });
 
-gulp.task('build', ['clean', 'copy-files'], function(){
+gulp.task('build', ['copy-files'], function(){
 });
 
 
