@@ -9,6 +9,7 @@ var copy = require('gulp-copy');
 var concat = require('gulp-concat');
 var sass = require('gulp-sass');
 var minifyJs = require('gulp-minify');
+var minifyCss = require('gulp-clean-css');
 var gulpif = require('gulp-if');
 
 /* ENVIRONMENT VARIABLES
@@ -122,14 +123,12 @@ gulp.task('minify', ['concat'], function() {
     
     var pipeline = [];
 
-    var files = [
+    // Minify JS
+    // ================================================
+    var jsFiles = [
         'build/js/all.js'
     ];
-
     var jsDest = 'build/js';
-    var cssDest = 'build/css';
-
-    // Minify JS
     var jsOptions = {
         ext: {
             src: '-debug.js',
@@ -141,9 +140,29 @@ gulp.task('minify', ['concat'], function() {
     }
 
     pipeline.push(
-        gulp.src(files)
+        gulp.src(jsFiles)
         .pipe(gulpif(doMinify, minifyJs(jsOptions)))
         .pipe(gulp.dest(jsDest))
+    );
+
+    // Minify CSS
+    // ================================================
+    var cssFiles = [
+        'build/css/all.css'
+    ];
+    var cssDest = 'build/css';
+    var cssOptions = {
+        compatibility: 'ie8',
+        debug: true
+    };
+
+    pipeline.push(
+        gulp.src(cssFiles)
+        .pipe(gulpif(doMinify, minifyCss(cssOptions, function(details) {
+            console.log('original ' + details.name + ': ' + details.stats.originalSize + ' bytes');
+            console.log('minified ' + details.name + ': ' + details.stats.minifiedSize + ' bytes');
+        })))
+        .pipe(gulp.dest(cssDest))
     );
 
     return pipeline;
