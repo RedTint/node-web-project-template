@@ -3,11 +3,11 @@ Contains initial folder structure and files to start your Project with NodeJs.
 
 # Templating Tasks
 
-- [ ] define folder structure
-- [ ] define /build folders where or for deployment code is built.
-- [ ] install `node`
-- [ ] install `gulp`
-- [ ] install `bower` 
+- [x] define folder structure
+- [x] define /build folders where or for deployment code is built.
+- [x] install `node`
+- [x] install `gulp`
+- [x] install `bower` 
 - [ ] create `build sample` script with `gulp`
 - [ ] test clone and build script
 - [ ] fine 'How to Setup / Use' in README
