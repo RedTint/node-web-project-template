@@ -9,6 +9,7 @@ var copy = require('gulp-copy');
 var concat = require('gulp-concat');
 var sass = require('gulp-sass');
 var minifyJs = require('gulp-minify');
+var gulpif = require('gulp-if');
 
 /* ENVIRONMENT VARIABLES
 =====================================*/
@@ -110,17 +111,50 @@ gulp.task('concat-js', function() {
 
 });
 
+gulp.task('concat', ['concat-js', 'concat-css'], function() {
+
+});
+
 /* MINIFICATION TASKS
 ====================================================== */
 
-gulp.task('minify-js', function() {
+gulp.task('minify', ['concat'], function() {
     
+    var pipeline = [];
+
+    var files = [
+        'build/js/all.js'
+    ];
+
+    var jsDest = 'build/js';
+    var cssDest = 'build/css';
+
+    // Minify JS
+    var jsOptions = {
+        ext: {
+            src: '-debug.js',
+            min: '.js'
+        },
+        noSource: true,
+        mangle: true,
+        compress: true
+    }
+
+    pipeline.push(
+        gulp.src(files)
+        .pipe(gulpif(doMinify, minifyJs(jsOptions)))
+        .pipe(gulp.dest(jsDest))
+    );
+
+    return pipeline;
+
 });
+
 
 /* MAIN TASKS
 ====================================================== */
 
-gulp.task('build', ['copy-files', 'concat-js', 'concat-css'], function(){
+gulp.task('build', ['copy-files', 'minify'], function() {
 });
 
 
