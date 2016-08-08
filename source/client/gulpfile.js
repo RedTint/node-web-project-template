@@ -32,8 +32,18 @@ gulp.task('clean', function(){
 gulp.task('copy-files', function(){ 
 
     var files = [
-
+        // Dev root folder files
+        'dev/app.js',
+        'dev/index.html'
     ];
+
+    // remove first folder
+    var options = {
+        prefix: 1
+    };
+
+    return gulp.src(files)
+        .pipe(copy('./build', options));
 });
 
 gulp.task('build', ['clean', 'copy-files'], function(){
