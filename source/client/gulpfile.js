@@ -88,7 +88,7 @@ gulp.task('concat-css', ['compile-sass'], function() {
         'dev/css/**/*.css'
     ];
 
-    var destination = 'build/css/'
+    var destination = 'build/css/';
 
     return gulp.src(files)
         .pipe(concat('all.css'))
@@ -104,7 +104,7 @@ gulp.task('concat-js', function() {
         'dev/js/example-script-03.js',
     ];
 
-    var destination = 'build/js/'
+    var destination = 'build/js/';
 
     return gulp.src(files)
         .pipe(concat('all.js'))
@@ -112,7 +112,35 @@ gulp.task('concat-js', function() {
 
 });
 
-gulp.task('concat', ['concat-js', 'concat-css'], function() {
+gulp.task('concat-vendor-css', function() {
+
+    // just define files and 'gulp' will handle concat for you
+    var files = [];
+
+    var destination = 'build/vendors/css/';
+
+    return gulp.src(files)
+        .pipe(concat('all.css'))
+        .pipe(gulp.dest(destination));
+
+});
+
+gulp.task('concat-vendor-js', function() { 
+
+    // just define files and 'gulp' will handle concat for you
+    var files = [];
+
+    var destination = 'build/vendors/js/';
+
+    return gulp.src(files)
+        .pipe(concat('all.js'))
+        .pipe(gulp.dest(destination));
+
+});
+
+
+var concatDependencies = ['concat-js', 'concat-css', 'concat-vendor-js', 'concat-vendor-css'];
+gulp.task('concat', concatDependencies , function() {
 
 });
 
