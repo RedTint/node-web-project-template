@@ -67,6 +67,16 @@ gulp.task('compile-sass', function() {
 
 gulp.task('concat-css', ['compile-sass'], function() {
 
+    var files = [
+        'dev/css/**/*.css'
+    ];
+
+    var destination = 'build/css/'
+
+    return gulp.src(files)
+        .pipe(concat('all.css'))
+        .pipe(gulp.dest(destination));
+
 });
 
 gulp.task('concat-js', function() { 
