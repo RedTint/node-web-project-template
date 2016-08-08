@@ -12,7 +12,9 @@ Contains initial folder structure and files to start your Project with NodeJs.
 - [x] build: concatenate scripts
 - [x] build: minify scripts
 - [x] build: uglify scripts
+- [ ] fix bug: gulp-clean causes error when `./client/dev/images` has other folders
 - [ ] test clone and build script
+
 - [ ] fine 'How to Setup / Use' in README
 
 # Note
