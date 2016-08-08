@@ -20,6 +20,12 @@ Contains initial folder structure and files to start your Project with NodeJs.
 # Note
 - We don't `concatenate`, `minify` and/or `uglify` server/ scripts.
 
+# How to Setup
+- Inside `./source/client/` and run `npm install && bower install`.
+
+# How to Run
+- Inside `./source/client/`, run `gulp build && npm start`. 
+
 # Root Folder Structure
 
 ```
