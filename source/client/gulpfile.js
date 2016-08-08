@@ -9,7 +9,7 @@ var copy = require('gulp-copy');
 var concat = require('gulp-concat');
 var sass = require('gulp-sass');
 
-/* TASKS
+/* CLEANUP
 =====================================*/
 
 gulp.task('clean', function(){
@@ -34,6 +34,9 @@ gulp.task('clean', function(){
 
 });
 
+/* COPY FILES
+====================================================== */
+
 gulp.task('copy-files', ['clean'], function() { 
 
     var files = [
@@ -51,6 +54,9 @@ gulp.task('copy-files', ['clean'], function() {
         .pipe(copy('./build', options));
 });
 
+/* COMPILE SASS
+====================================================== */
+
 gulp.task('compile-sass', function() { 
 
     var files = [
@@ -64,6 +70,9 @@ gulp.task('compile-sass', function() {
         .pipe(gulp.dest(destination));
 
 });
+
+/* CONCATENATION TASKS
+====================================================== */
 
 gulp.task('concat-css', ['compile-sass'], function() {
 
@@ -94,6 +103,9 @@ gulp.task('concat-js', function() {
         .pipe(gulp.dest(destination));
 
 });
+
+/* MAIN TASKS
+====================================================== */
 
 gulp.task('build', ['copy-files', 'concat-js', 'concat-css'], function(){
 });
