@@ -8,7 +8,7 @@ Contains initial folder structure and files to start your Project with NodeJs.
 - [x] install `node`
 - [x] install `gulp`
 - [x] install `bower` 
-- [ ] create `build sample` script with `gulp`
+- [x] create `build sample` script with `gulp`
 - [x] build: concatenate scripts
 - [x] build: minify scripts
 - [x] build: uglify scripts
@@ -18,13 +18,18 @@ Contains initial folder structure and files to start your Project with NodeJs.
 - [ ] fine 'How to Setup / Use' in README
 
 # Note
+
 - We don't `concatenate`, `minify` and/or `uglify` server/ scripts.
 
 # How to Setup
+
 - Inside `./source/client/` and run `npm install && bower install`.
+- Inside `./source/server/` and run `npm install`.
 
 # How to Run
-- Inside `./source/client/`, run `gulp build && npm start`. 
+
+- Inside `./source/client/`, run `gulp build`. 
+- Inside `./source/server/`, run `npm start`.
 
 # Root Folder Structure
 
