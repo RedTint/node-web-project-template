@@ -1,0 +1,12 @@
+{
+  "name": "node-project-template",
+  "version": "1.0.0",
+  "description": "Update these upon actual project created.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/app"
+  },
+  "author": "",
+  "license": "ISC"
+}
