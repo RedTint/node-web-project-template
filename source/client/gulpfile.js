@@ -23,13 +23,14 @@ var doMinify = (env == 'live');
 gulp.task('clean', function(){
 
     var files = [
+
+        // Ignore
+        '!build/images/*.md',
+
         // Asset folder
         'build/css/*.css',
         'build/js/*.js',
-        'build/images/*.jpg',
-        'build/images/*.jpeg',
-        'build/images/*.png',
-        'build/images/*.gif',
+        'build/images/**/*',
 
         // Vendor folder
         'build/vendors/css/*.css',
