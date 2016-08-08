@@ -34,7 +34,7 @@ gulp.task('clean', function(){
 
 });
 
-gulp.task('copy-files', ['clean'], function(){ 
+gulp.task('copy-files', ['clean'], function() { 
 
     var files = [
         // Dev root folder files
@@ -51,7 +51,25 @@ gulp.task('copy-files', ['clean'], function(){
         .pipe(copy('./build', options));
 });
 
-gulp.task('concat-js', function(){ 
+gulp.task('compile-sass', function() { 
+
+    var files = [
+        'dev/sass/**/*.scss'
+    ];
+
+    var destination = 'dev/css/';
+
+    return gulp.src(files)
+        .pipe(sass().on('error', sass.logError))
+        .pipe(gulp.dest(destination));
+
+});
+
+gulp.task('concat-css', ['compile-sass'], function() {
+
+});
+
+gulp.task('concat-js', function() { 
 
     var files = [
         'dev/js/example-script-01.js',
@@ -67,7 +85,7 @@ gulp.task('concat-js', function(){
 
 });
 
-gulp.task('build', ['copy-files', 'concat-js'], function(){
+gulp.task('build', ['copy-files', 'concat-js', 'concat-css'], function(){
 });
 
 
