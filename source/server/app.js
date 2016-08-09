@@ -2,6 +2,8 @@
 
 /* LOAD DEPENDENCIES
 ================================================*/
+var express         = require('express');
+var app             = express();
 
 /* CONFIG
 ================================================*/
