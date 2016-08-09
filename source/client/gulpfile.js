@@ -35,7 +35,6 @@ gulp.task('clean', function(){
         // Vendor folder
         'build/vendors/css/*.css',
         'build/vendors/js/*.js',
-        'build/app.js',
         'build/index.html'
     ];
 
@@ -53,7 +52,6 @@ gulp.task('copy-files', ['clean'], function() {
     // SINGLE FILES
     // ====================================
     var files = [
-        'dev/app.js',
         'dev/index.html'
     ];
 
