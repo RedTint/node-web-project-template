@@ -7,7 +7,7 @@ var path = require('path');
 
 /* CONFIG
 ================================================*/
-var config = require('./configs/config.js');
+var config = require('../configs/config.js');
 var clientPath = config.client.path;
 var clientAbsPath = __dirname + '/' + clientPath;
 
