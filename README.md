@@ -12,10 +12,36 @@ Contains initial folder structure and files to start your Project with NodeJs.
 - [x] build: concatenate scripts
 - [x] build: minify scripts
 - [x] build: uglify scripts
-- [ ] fix bug: gulp-clean causes error when `./client/dev/images` has other folders
+- [ ] FIX BUG: gulp-clean causes error when `./client/dev/images` has other folders
+
 - [ ] test clone and build script
 
-- [ ] fine 'How to Setup / Use' in README
+# Server Tasks
+
+- [ ] Create API Sample Structure
+- [ ] Create API Routing Sample Structure
+
+# DevOps Tasks
+
+- [ ] Create Dockerfile that can work with node-project-template
+
+# Repository Maintenance Tasks
+
+- [ ] Define Purpose of Repository
+- [ ] Define Libraries used
+- [ ] Define Project Structure / Architecture
+- [ ] Create a Diagram for the structure of this template (based on Componenet Laters - separation of concerns)
+- [ ] Define 'How to Setup'
+- [ ] Define 'How to Run'
+
+
+# Future Goals
+
+- [ ] Create Angular Template - based on this repository
+- [ ] Create Appbuilder Template - based on this repository
+- [ ] Create API Template using Sequelize - based on this repository
+- [ ] Create API Template using MongoDb - based on this repository
+- [ ] Create ETL Template using CRON - based on this repository
 
 # Note
 
