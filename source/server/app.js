@@ -18,6 +18,10 @@ var clientPath = config.client.path;
 var clientAbsPath = __dirname + '/' + clientPath;
 var ports = config.ports;
 
+/* INJECT CLIENT ROUTE
+================================================*/
+clientRoute(app);
+
 /* MAIN
 ================================================*/
 
@@ -27,10 +31,6 @@ console.log('# Running server in \'' + config.description + '\'');
 // Run listen to https and http here.
 
 console.log('Client Path: ' + clientPath);
-
-/* INJECT ROUTES
-================================================*/
-clientRoute(app);
 
 /* LAUNCH SERVER
 ================================================*/
