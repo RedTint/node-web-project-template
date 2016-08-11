@@ -4,11 +4,11 @@
 ================================================*/
 var express         = require('express');
 var app             = express();
-var path            = require('path');
 
 /* LOAD ROUTES
 ================================================*/
 var clientRoute     = require('./routes/client-route');
+var apiRoutes       = require('./api/routes/routes');
 
 /* CONFIG
 ================================================*/
@@ -18,9 +18,10 @@ var clientPath = config.client.path;
 var clientAbsPath = __dirname + '/' + clientPath;
 var ports = config.ports;
 
-/* INJECT CLIENT ROUTE
+/* REGISTER ROUTES
 ================================================*/
 clientRoute(app);
+apiRoutes(app);
 
 /* MAIN
 ================================================*/
