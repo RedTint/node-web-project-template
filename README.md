@@ -23,11 +23,11 @@ Contains initial folder structure and files to start your Project with NodeJs.
 
 # How to Setup
 
-- Inside `./source/client/` and run `npm install && bower install`.
+- Inside `./source/client/` and run `npm install && bower install && gulp build`.
 - Inside `./source/server/` and run `npm install`.
 
 # How to Run
 
-- Inside `./source/client/`, run `gulp build`. 
 - Inside `./source/server/`, run `npm start`.
+- Go to site via: http://localhost:3000
 
