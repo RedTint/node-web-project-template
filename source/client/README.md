@@ -45,7 +45,7 @@ https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
 
 ### Task: Compile SASS (compile-sass)
 - Compiles your SASS files for you.
-- We recommend using SASS instead of directly editing your CSS files in the `css/` folder
+- I recommend using SASS instead of directly editing your CSS files in the `css/` folder
 
 ### Task: Concat CSS (concat-css)
 - Concatenates the css files specified in your code.
