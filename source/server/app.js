@@ -4,6 +4,7 @@
 ================================================*/
 var express         = require('express');
 var app             = express();
+var bodyParser      = require('body-parser');
 
 /* CONFIG
 ================================================*/
@@ -17,6 +18,10 @@ var ports = config.ports;
 ================================================*/
 var clientRoute     = require('./routes/client-route');
 var apiRoutes       = require('./api/routes/routes');
+
+/* CONFIGURE EXPRESS
+================================================*/
+app.use(bodyParser.json());
 
 /* REGISTER ROUTES
    - It would be great to have all routings
@@ -41,3 +46,8 @@ console.log('# Client Path: ' + clientPath);
 /* LAUNCH SERVER
 ================================================*/
 app.listen(ports.http);
+
+process.on('uncaughtException', function(err){
+    console.log('Uncaught Exception:');
+    console.log(err);
+});
