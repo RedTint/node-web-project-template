@@ -44,14 +44,14 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 ## Note
 - We don't `concatenate`, `minify` and/or `uglify` server/ scripts just the client scripts.
 
-# Dependencies
+## Dependencies
 - Node
 - Bower
 - Gulp and other gulp helper packages
 - Express
 - Express Body Parser
 
-# Tasks
+# Tasks / Issues / Future Updates
 
 ### Templating Tasks
 
