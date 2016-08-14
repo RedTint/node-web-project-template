@@ -79,9 +79,8 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 # Repository Maintenance Tasks
 
 - [x] Define Purpose of Repository
-- [ ] Define Libraries used
-- [ ] Define Project Structure / Architecture
-- [ ] Create a Diagram for the structure of this template (based on Componenet Laters - separation of concerns)
+- [x] Define Dependencies
+- [ ] Create a Diagram for the structure of this template
 - [x] Define 'How to Setup'
 - [x] Define 'How to Run'
 
