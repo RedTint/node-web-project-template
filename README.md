@@ -11,14 +11,23 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 
 ## Table of Contents
 1. Node Web Project Template
+
 ..1. [How to Setup](https://github.com/RedTint/node-web-project-template#how-to-setup)
+
 ..2. [How to Run](https://github.com/RedTint/node-web-project-template#how-to-run)
+
 ..3. [API Examples](https://github.com/RedTint/node-web-project-template#api-examples)
+
 ..4. [Client Advantages](https://github.com/RedTint/node-web-project-template#client-advantages)
+
 ..5. [Server Advantages](https://github.com/RedTint/node-web-project-template#server-advantages)
+
 ..6. [Notes](https://github.com/RedTint/node-web-project-template#notes)
+
 ..7. [Dependencies](https://github.com/RedTint/node-web-project-template#dependencies)
+
 ..8. [Tasks/Issues/Future Updates](https://github.com/RedTint/node-web-project-template#tasks--issues--future-updates)
+
 ..9. [Future Goals](https://github.com/RedTint/node-web-project-template#future-goals)
 
 ## How to Setup
