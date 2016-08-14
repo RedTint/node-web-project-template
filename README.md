@@ -9,22 +9,22 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 * **Well Routed** - I know that routing could be a bit messy, we provided a way in which you could do it.
 * **Well Documented** - each folder contains its own README.md
 
-# How to Setup
+## How to Setup
 - Inside `./source/client/`, run `npm install && bower install && gulp build`.
 - Inside `./source/server/`, run `npm install`.
 
 
-# How to Run
+## How to Run
 - Inside `./source/server/`, run `npm start`.
 - Go to site via: http://localhost:3000
 
 
-# API Examples
+## API Examples
 - Send a GET request to http://localhost:3000/api/example/getBooks. Returns all books
 - Send a POST request to http://localhost:3000/api/example/getBooks with payload `{ "id": 1 }`. Returns book by ID.
 
 
-# Client Advantages
+## Client Advantages
 - We have **GULP** setup for you with **concatenation**, **minification** and **obfuscation** tasks available.
 - Code that is ready for release is in the [BUILD](./source/client/build) folder.
 - Code that is in development is in the [DEV](./source/client/dev) folder.
@@ -33,7 +33,7 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 - Ready for *Continuous Integration*.
 
 
-# Server Advantages
+## Server Advantages
 - Already setup to parse JSON
 - Already routes to [CLIENT LANDING PAGE](./source/client/dev/index.html).
 - Config is conveniently placed in the [CONFIG FOLDER](./source/server/configs/config.json)
@@ -41,7 +41,7 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 - Sample code for suggested practices in routing is in place.
 - Ready for *Continuous Integration*.
 
-# Note
+## Note
 - We don't `concatenate`, `minify` and/or `uglify` server/ scripts just the client scripts.
 
 # Dependencies
@@ -52,6 +52,7 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 - Express Body Parser
 
 # Tasks
+
 ### Templating Tasks
 
 - [x] define folder structure
