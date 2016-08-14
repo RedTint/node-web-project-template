@@ -1,17 +1,17 @@
 # Node Web Project Template
 The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi/wiki?WalkingSkeleton) for node web projects that has the following qualities:
 
-* *Easy to Use* - just follow easy steps in How to Setup and How to Run then you have your Walking Skeleton working.
-* *Minimal Code* - I tried to place as minimal code as we could get.
-* *Automation at Work* - gulp is ready to concatenate, minify and obfuscate your code. You'll have to do a bit of dirty work at some point though.
-* *No Framework* - no AngularJs, Bootstrap, etc... you define what you need as you need them.
-* *Well Structured* - I defined the initial folder structures that could make your life easier if, well, it suits your taste buds. 
-* *Well Routed* - I know that routing could be a bit messy sometimes, I have a suggested way in which you could do it.
-* *Well Maintained* - I will update the template as the need arises.
-* *Well Documented* - You can click on the folders and have short documentations on how they are setup, why they are needed and how to make use of what's already in there.
+* **Easy to Use** - just follow easy steps in How to Setup and How to Run then you have your Walking Skeleton working.
+* **Minimal Code** - I tried to place as minimal code as we could get.
+* **Automation at Work** - gulp is ready to concatenate, minify and obfuscate your code. You'll have to do a bit of dirty work at some point though.
+* **No Framework** - no AngularJs, Bootstrap, etc... you define what you need as you need them.
+* **Well Structured** - I defined the initial folder structures that could make your life easier if, well, it suits your taste buds. 
+* **Well Routed** - I know that routing could be a bit messy sometimes, I have a suggested way in which you could do it.
+* **Well Maintained** - I will update the template as the need arises.
+* **Well Documented** - You can click on the folders and have short documentations on how they are setup, why they are needed and how to make use of what's already in there.
 
 # Client Advantages
-- We have *GULP* setup for you with *concatenation*, *minification* and *obfuscation* tasks available.
+- We have **GULP** setup for you with **concatenation**, **minification** and **obfuscation** tasks available.
 - Code that is ready for release is in the [BUILD](./source/client/build) folder.
 - Code that is in development is in the [DEV](./source/client/dev) folder.
 - Running `gulp build` inside the [CLIENT](./source/client) folder would prepare your client code for you.
