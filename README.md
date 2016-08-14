@@ -20,8 +20,8 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 
 
 ## API Examples
-- Send a GET request to http://localhost:3000/api/example/getBooks. Returns all books
-- Send a POST request to http://localhost:3000/api/example/getBooks with payload `{ "id": 1 }`. Returns book by ID.
+- Send a GET request to `http://localhost:3000/api/example/getBooks`. Returns all books
+- Send a POST request to `http://localhost:3000/api/example/getBooks` with payload `{ "id": 1 }`. Returns book by ID.
 
 
 ## Client Advantages
