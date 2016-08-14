@@ -6,8 +6,20 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 * **Automation at Work** - leveraged `gulp` to concatenate, minify and obfuscate your code.
 * **No Framework** - no AngularJs, Bootstrap, etc... you define what you need as you need them.
 * **Well Structured** - well thought of and structured folders.
-* **Well Routed** - I know that routing could be a bit messy, we provided a way in which you could do it.
+* **Well Routed** - I know that routing could be a bit messy, I provided a way in which you could do it.
 * **Well Documented** - each folder contains its own README.md
+
+## Table of Contents
+1. Node Web Project Template
+..1. [How to Setup](https://github.com/RedTint/node-web-project-template#how-to-setup)
+..2. [How to Run](https://github.com/RedTint/node-web-project-template#how-to-run)
+..3. [API Examples](https://github.com/RedTint/node-web-project-template#api-examples)
+..4. [Client Advantages](https://github.com/RedTint/node-web-project-template#client-advantages)
+..5. [Server Advantages](https://github.com/RedTint/node-web-project-template#server-advantages)
+..6. [Notes](https://github.com/RedTint/node-web-project-template#notes)
+..7. [Dependencies](https://github.com/RedTint/node-web-project-template#dependencies)
+..8. [Tasks/Issues/Future Updates](https://github.com/RedTint/node-web-project-template#tasks--issues--future-updates)
+..9. [Future Goals](https://github.com/RedTint/node-web-project-template#future-goals)
 
 ## How to Setup
 - Inside `./source/client/`, run `npm install && bower install && gulp build`.
@@ -25,7 +37,7 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 
 
 ## Client Advantages
-- We have **GULP** setup for you with **concatenation**, **minification** and **obfuscation** tasks available.
+- I had **GULP** setup for you with **concatenation**, **minification** and **obfuscation** tasks available.
 - Code that is ready for release is in the [BUILD](./source/client/build) folder.
 - Code that is in development is in the [DEV](./source/client/dev) folder.
 - Running `gulp build` inside the [CLIENT](./source/client) folder would prepare your client code for you.
@@ -41,7 +53,7 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 - Sample code for suggested practices in routing is in place.
 - Ready for *Continuous Integration*.
 
-## Note
+## Notes
 - We don't `concatenate`, `minify` and/or `uglify` server/ scripts just the client scripts.
 
 ## Dependencies
@@ -87,6 +99,7 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 
 
 # Future Goals
+I intend to fork this repository and start creating problem-specific and framework-specific templates. I will update this repository to provide links to templates created from this repository. If time allows it, I'll be able to give you the following:
 
 - [ ] Create Angular Template - based on this repository
 - [ ] Create Appbuilder Template - based on this repository
