@@ -51,7 +51,8 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 - Express
 - Express Body Parser
 
-# Templating Tasks
+# Tasks
+### Templating Tasks
 
 - [x] define folder structure
 - [x] define /build folders where or for deployment code is built.
@@ -65,17 +66,17 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 - [ ] ISSUE: gulp-clean causes error when `./client/dev/images` has other folders
 - [ ] test clone and build script
 
-# Server Tasks
+### Server Tasks
 
 - [x] Create API Sample Structure
 - [x] Create API Routing Sample Structure
 - [ ] Sample SSL Certificate Setup - should have ability to be toggled in the configs
 
-# DevOps Tasks
+### DevOps Tasks
 
 - [ ] Create Dockerfile that can work with node-project-template
 
-# Repository Maintenance Tasks
+### Repository Maintenance Tasks
 
 - [x] Define Purpose of Repository
 - [x] Define Dependencies
