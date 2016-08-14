@@ -33,5 +33,5 @@
         'build/index.html'
     ];
 ```
-- Adding `!` just before the file/folder-path should include the path/folder-path to ignore list. Notice `!build/images/*.md` which adds the `*.md` file to ignore list.
+- Adding `!` just before the file/folder should include the files/folder to the ignore list. Notice `!build/images/*.md` which adds the `*.md` file to ignore list.
 - Should be updated as new files/folders are added to the project.
