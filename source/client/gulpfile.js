@@ -56,6 +56,8 @@ gulp.task('copy-files', ['clean'], function() {
     ];
 
     // exclude first folder
+    // prefix - prefixed folder number.
+    //          in 'dev/index.html', 'dev/' will be excluded
     var options = {
         prefix: 1
     };
