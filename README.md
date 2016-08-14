@@ -55,9 +55,8 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 
 
 ## Server Advantages
-- Already setup to parse JSON
 - Already routes to [CLIENT LANDING PAGE](./source/client/dev/index.html).
-- Config is conveniently placed in the [CONFIG FOLDER](./source/server/configs/config.json)
+- Easy to configure - [CONFIG FILE](./source/server/configs/config.json)
 - Very well-structured.
 - Sample code for suggested practices in routing is in place.
 - Ready for *Continuous Integration*.
