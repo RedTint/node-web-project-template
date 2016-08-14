@@ -6,7 +6,7 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 * **Automation at Work** - leveraged `gulp` to concatenate, minify and obfuscate your code.
 * **No Framework** - no AngularJs, Bootstrap, etc... you define what you need as you need them.
 * **Well Structured** - well thought of and structured folders.
-* **Well Routed** - I know that routing could be a bit messy sometimes, I have a suggested way in which you could do it.
+* **Well Routed** - I know that routing could be a bit messy, we provided a way in which you could do it.
 * **Well Documented** - each folder contains its own README.md
 
 # How to Setup
