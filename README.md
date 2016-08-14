@@ -48,7 +48,7 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 ## Client Advantages
 - I had **GULP** setup for you with **concatenation**, **minification** and **obfuscation** tasks available.
 - Code that is ready for release is in the [BUILD](./source/client/build) folder.
-- Code that is in development is in the [DEV](./source/client/dev) folder.
+- Development Code is in the [DEV](./source/client/dev) folder.
 - Running `gulp build` inside the [CLIENT](./source/client) folder would prepare your client code for you.
 - An explanation of how the gulp tasks work is found [here](./source/client/README.md).
 - Ready for *Continuous Integration*.
