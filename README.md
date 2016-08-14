@@ -10,22 +10,6 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 * **Well Maintained** - I will update the template as the need arises.
 * **Well Documented** - You can click on the folders and have short documentations on how they are setup, why they are needed and how to make use of what's already in there.
 
-# Client Advantages
-- We have **GULP** setup for you with **concatenation**, **minification** and **obfuscation** tasks available.
-- Code that is ready for release is in the [BUILD](./source/client/build) folder.
-- Code that is in development is in the [DEV](./source/client/dev) folder.
-- Running `gulp build` inside the [CLIENT](./source/client) folder would prepare your client code for you.
-- An explanation of how the gulp tasks work is found [here](./source/client/README.md).
-- Ready for *Continuous Integration*.
-
-# Server Advantages
-- Already setup to parse JSON
-- Already routes to [CLIENT LANDING PAGE](./source/client/dev/index.html).
-- Config is conveniently placed in the [CONFIG FOLDER](./source/server/configs/config.json)
-- Very well-structured.
-- Sample code for suggested practices in routing is in place.
-- Ready for *Continuous Integration*.
-
 # How to Setup
 - Inside `./source/client/`, run `npm install && bower install && gulp build`.
 - Inside `./source/server/`, run `npm install`.
@@ -40,8 +24,33 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 - Send a GET request to http://localhost:3000/api/example/getBooks. Returns all books
 - Send a POST request to http://localhost:3000/api/example/getBooks with payload `{ "id": 1 }`. Returns book by ID.
 
+
+# Client Advantages
+- We have **GULP** setup for you with **concatenation**, **minification** and **obfuscation** tasks available.
+- Code that is ready for release is in the [BUILD](./source/client/build) folder.
+- Code that is in development is in the [DEV](./source/client/dev) folder.
+- Running `gulp build` inside the [CLIENT](./source/client) folder would prepare your client code for you.
+- An explanation of how the gulp tasks work is found [here](./source/client/README.md).
+- Ready for *Continuous Integration*.
+
+
+# Server Advantages
+- Already setup to parse JSON
+- Already routes to [CLIENT LANDING PAGE](./source/client/dev/index.html).
+- Config is conveniently placed in the [CONFIG FOLDER](./source/server/configs/config.json)
+- Very well-structured.
+- Sample code for suggested practices in routing is in place.
+- Ready for *Continuous Integration*.
+
 # Note
 - We don't `concatenate`, `minify` and/or `uglify` server/ scripts just the client scripts.
+
+# Dependencies
+- Node
+- Bower
+- Gulp and other gulp helper packages
+- Express
+- Express Body Parser
 
 # Templating Tasks
 
