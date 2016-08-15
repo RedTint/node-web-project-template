@@ -3,7 +3,7 @@ This is the recommended place to put all your front-end code. We have setup SASS
 
 In this template, you'll mainly work with the `/dev` folder. All changes to your project will be done there. It doesn't matter whether you are working with AngularJs, Bootstrap, jQuery, Skeleton Framework, Angular Material, FontAwesome, etc... as long as you read and use our pre-setup [Gulp Tasks](https://github.com/RedTint/node-web-project-template/tree/master/source/client#gulp-tasks--automation). The power of this template relies heavily on those gulp tasks. Use it wisely.
 
-*Please do note that some **Vendor Libraries** do have JS and CSS files together so you will have to clone/copy them as is as you see fit. We provided the [Copy Files Gulp Task](https://github.com/RedTint/node-web-project-template/tree/master/source/client#task-copy-files-copy-files) to do that for you.*
+_Please do note that some **Vendor Libraries** do have JS, CSS and even image files together so you will have to clone/copy them as is as you see fit. We provided the [Copy Files Gulp Task](https://github.com/RedTint/node-web-project-template/tree/master/source/client#task-copy-files-copy-files) to do that for you._
 
 
 ## Developing with Javascript
