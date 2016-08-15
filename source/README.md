@@ -1,2 +1,2 @@
 # Source
-- All `client` and `server` source codes should be found here only.
+- All `client` and `server` source code should be found here only. Click those folders will you? :)
