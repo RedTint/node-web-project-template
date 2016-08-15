@@ -1,5 +1,20 @@
-# Client
-- All client code must be placed inside this folder
+# Client Folder
+This is the recommended place to put all your front-end code. We have setup SASS compilation, CSS and JS concatenation, minification and obfuscation all ready and easy to extend for you.
+
+In this template, you'll mainly work with the `/dev` folder. All changes to your project will be done there. It doesn't matter whether you are working with AngularJs, Bootstrap, jQuery, Skeleton Framework, Angular Material, FontAwesome, etc... as long as you read and use our pre-setup [Gulp Tasks](https://github.com/RedTint/node-web-project-template/tree/master/source/client#gulp-tasks--automation). The power of this template relies heavily on those gulp tasks. Use it wisely.
+
+*Please do note that some **Vendor Libraries** do have JS and CSS files together so you will have to clone/copy them as is as you see fit. We provided the [Copy Files Gulp Task](https://github.com/RedTint/node-web-project-template/tree/master/source/client#task-copy-files-copy-files) to do that for you.*
+
+
+## Developing with Javascript
+We recommend encapsulating all your javascripts with [anonymous self-invoking functions](http://www.w3schools.com/Js/js_function_definition.asp) so all variables and functions don't won't conflict.
+
+## Developing with CSS and SASS
+We recommend developing with SASS and let our template generate the CSS for you. Once you discover the power of SASS, you'll never go back. 
+
+You can find our SASS folder in `/dev/sass`. Once compiled, it will create `/build/css/all.css` which contains all your styles. A SASSy way to do it. ;)
+
+Read the [SASS Basics](http://sass-lang.com/guide).
 
 ## Build Folder
 - `build/` folder will contain build files after running `gulp build`
@@ -83,3 +98,6 @@ var files = [
 
 ### Task: Build
 - Runs all above listed tasks
+
+# Issues:
+- [ ] gulp-clean causes error when `./client/dev/images` has other folders.
