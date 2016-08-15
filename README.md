@@ -1,12 +1,17 @@
 # Node Web Project Template
+This project is a highly opinionated template for building node web projects. We've structured folders, created examples, setup automation and tossed in other important stuffs we feel will be needed during a node project startup. 
+
+Feel free to use it on your own accord. It does make starting a project faster so use it as you will. =)
+
 The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi/wiki?WalkingSkeleton) for node web projects that has the following qualities:
 
-* **Easy to Use** - follow easy steps to have your Walking Skeleton running.
-* **Minimal Code** - start from minimal code.
+* **Easy to Use** - follow easy steps to have your Walking Skeleton, uh, walking.
+* **Minimal Code** - yep, start from minimal code.
 * **Automation at Work** - leveraged `gulp` to concatenate, minify and obfuscate your code.
 * **No Framework** - no AngularJs, Bootstrap, etc... you define what you need as you need them.
-* **Well Structured** - well thought of and structured folders.
-* **Well Routed** - I know that routing could be a bit messy, I provided a way in which you could do it.
+* **Well Structured** - well thought out and structured folders.
+* **Well Architectured** - you'll find it easy to use as soon as you start getting dirty.
+* **Well Routed** - We know that routing could be a bit messy, I provided a way in which you could do it.
 * **Well Documented** - each folder contains its own README.md
 
 ## Table of Contents
@@ -46,7 +51,7 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 
 
 ## Client Advantages
-- I had **GULP** setup for you with **concatenation**, **minification** and **obfuscation** tasks available.
+- We had **GULP** setup for you with **concatenation**, **minification** and **obfuscation** tasks available.
 - Code that is ready for release is in the [BUILD](./source/client/build) folder.
 - Development Code is in the [DEV](./source/client/dev) folder.
 - Running `gulp build` inside the [CLIENT](./source/client) folder would prepare your client code for you.
@@ -107,7 +112,7 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 
 
 # Future Goals
-I intend to fork this repository and start creating problem-specific and framework-specific templates. I will update this repository to provide links to templates created from this repository. If time allows it, I'll be able to give you the following:
+We intend to fork this repository and start creating problem-specific and framework-specific templates. We will update this repository to provide links to templates created from this repository. If time allows it, we'll be able to give you the following:
 
 - [ ] Create Angular Template
 - [ ] Create Appbuilder Template
