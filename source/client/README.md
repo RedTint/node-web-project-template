@@ -19,7 +19,7 @@ Read the [SASS Basics](http://sass-lang.com/guide).
 ## Build Folder
 - `build/` folder will contain build files after running `gulp build`
 
-## Dev Folder
+## Development Folder
 - `dev/` folder must contain all development files
 
 ## How to Build
