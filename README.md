@@ -3,6 +3,8 @@ This project is a highly opinionated template for building node web projects. We
 
 Feel free to use it on your own accord. It does make starting a project faster so use it as you will. =)
 
+Clone this branch and jump immediately to [How to Setup](https://github.com/RedTint/node-web-project-template#how-to-setup).
+
 The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi/wiki?WalkingSkeleton) for node web projects that has the following qualities:
 
 * **Easy to Use** - follow easy steps to have your Walking Skeleton, uh, walking.
