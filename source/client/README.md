@@ -1,17 +1,17 @@
 # Client
 - All client code must be placed inside this folder
 
-# Build Folder
+## Build Folder
 - `build/` folder will contain build files after running `gulp build`
 
-# Dev Folder
+## Dev Folder
 - `dev/` folder must contain all development files
 
-# How to Build
+## How to Build
 - Run `npm install && bower install` to install dependencies
 - Run `gulp build` to build project and populate `build/` folder.
 
-# Gulp Tasks
+## Gulp Tasks / Automation
 
 ### Gulp Reference
 https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
