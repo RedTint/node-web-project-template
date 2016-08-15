@@ -15,7 +15,7 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 * **Well Documented** - each folder contains its own README.md
 
 ## Table of Contents
-1. Node Web Project Template
+1. **Node Web Project Template**
 
   1. [How to Setup](https://github.com/RedTint/node-web-project-template#how-to-setup)
 
@@ -34,6 +34,20 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
   8. [Tasks/Issues/Future Updates](https://github.com/RedTint/node-web-project-template#tasks--issues--future-updates)
 
   9. [Future Goals](https://github.com/RedTint/node-web-project-template#future-goals)
+
+2. The [Client Folder](https://github.com/RedTint/node-web-project-template/tree/master/source/client)
+
+  1. [Developing with Javascript](https://github.com/RedTint/node-web-project-template/tree/master/source/client#developing-with-javascript)
+
+  2. [Developing with CSS and SASS](https://github.com/RedTint/node-web-project-template/tree/master/source/client#developing-with-css-and-sass)
+
+  3. [Build Folder](https://github.com/RedTint/node-web-project-template/tree/master/source/client#build-folder)
+
+  4. [Development Folder](https://github.com/RedTint/node-web-project-template/tree/master/source/client#development-folder)
+
+  5. [How to Build](https://github.com/RedTint/node-web-project-template/tree/master/source/client#how-to-build)
+
+  6. [Gulp Tasks / Automation](https://github.com/RedTint/node-web-project-template/tree/master/source/client#gulp-tasks--automation)
 
 ## How to Setup
 - Inside `./source/client/`, run `npm install && bower install && gulp build`.
