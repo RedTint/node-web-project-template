@@ -7,7 +7,7 @@ _Please do note that some **Vendor Libraries** do have JS, CSS and even image fi
 
 
 ## Developing with Javascript
-We recommend encapsulating all your javascripts with [anonymous self-invoking functions](http://www.w3schools.com/Js/js_function_definition.asp) so all variables and functions don't won't conflict.
+We recommend encapsulating all your javascripts with [anonymous self-invoking functions](http://www.w3schools.com/Js/js_function_definition.asp) so all your lovely variables and functions won't conflict when we concatenate them.
 
 ## Developing with CSS and SASS
 We recommend developing with SASS and let our template generate the CSS for you. Once you discover the power of SASS, you'll never go back. 
