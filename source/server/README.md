@@ -5,7 +5,7 @@ This is the recommended place to put all your back-end code. We have setup the s
 - Continuous Integration Ready - make use of `NODE_ENV=dev` or `NODE_ENV=live` to toggle between Development and Production.
 - HTTP
 - Routes
-  - [Client Route](https://github.com/RedTint/node-web-project-template/blob/master/source/server/app.js#L16)
+  - [Client Route](https://github.com/RedTint/node-web-project-template/blob/master/source/server/app.js#L16) - routed [client/build/index.html](https://github.com/RedTint/node-web-project-template/tree/master/source/client/build). You will have to run `build` in the `client folder` first for `index.html` to be available.
   - [API Route Examples](https://github.com/RedTint/node-web-project-template/tree/master/source/server/api/routes) - we have setup recommended API Routing examples
 
 ### How to Run?
