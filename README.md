@@ -130,9 +130,9 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 # Future Goals
 We intend to fork this repository and start creating problem-specific and framework-specific templates. We will update this repository to provide links to templates created from this repository. If time allows it, we'll be able to give you the following:
 
-- [ ] Create Angular Template
-- [ ] Create Appbuilder Template
-- [ ] Create API Template using Sequelize
-- [ ] Create API Template using MongoDb
-- [ ] Create ETL Template using CRON
-
+- [ ] Create Angular Example
+- [ ] Create Bootstrap Example
+- [ ] Create Appbuilder Example
+- [ ] Create API Example using Sequelize
+- [ ] Create API Example using MongoDb
+- [ ] Create ETL Example using CRON
