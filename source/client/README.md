@@ -24,7 +24,12 @@ Read the [SASS Basics](http://sass-lang.com/guide).
 
 ## How to Build
 - Run `npm install && bower install` to install dependencies
+- Set `NODE_ENV` to `dev`(DEVELOPMENT) or `live`(PRODUCTION).
 - Run `gulp build` to build project and populate `build/` folder.
+
+## Node Environments (NODE_ENV)
+- `NODE_ENV` set to `dev` would only concatenate code
+- `NODE_ENV` set to `live` would include minification for your libraries. 
 
 ## Gulp Tasks / Automation
 
