@@ -23,7 +23,10 @@ Read the [SASS Basics](http://sass-lang.com/guide).
 - `dev/` folder must contain all development files
 
 ## How to Build
-- Run `npm install && bower install` to install dependencies
+- Install dependencies by running:
+  - `npm install`
+  - `npm install bower -g`
+  - `npm install gulp -g`
 - Set `NODE_ENV` to `dev`(DEVELOPMENT) or `live`(PRODUCTION).
 - Run `gulp build` to build project and populate `build/` folder.
 

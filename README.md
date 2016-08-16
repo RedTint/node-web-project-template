@@ -54,8 +54,13 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
   6. [Gulp Tasks / Automation](https://github.com/RedTint/node-web-project-template/tree/master/source/client#gulp-tasks--automation)
 
 ## How to Setup
-- Inside `./source/client/`, run `npm install && bower install && gulp build`.
-- Inside `./source/server/`, run `npm install`.
+- Inside `./source/client/`, run 
+  - `npm install`
+  - `npm install bower -g`
+  - `npm install gulp -g`
+  - `gulp build`
+- Inside `./source/server/`, run 
+  - `npm install`
 
 
 ## How to Run
