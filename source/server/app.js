@@ -23,8 +23,8 @@ app.use(bodyParser.json());
 /* REGISTER ROUTES
    - It would be great to have all routings
      called in this section
-   - express instance 'app' is passed as
-     parameter to all route declarations
+   - simply pass an express instance 'app' inside 
+     route declarations
 ================================================*/
 console.log('# Registering routes');
 clientRoute(app);
