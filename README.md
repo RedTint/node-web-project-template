@@ -24,18 +24,20 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
   2. [How to Run](https://github.com/RedTint/node-web-project-template#how-to-run)
 
   3. [API Examples](https://github.com/RedTint/node-web-project-template#api-examples)
+
+  4. [Using Docker](https://github.com/RedTint/node-web-project-template#using-docker)
   
-  4. [Client Advantages](https://github.com/RedTint/node-web-project-template#client-advantages)
+  5. [Client Advantages](https://github.com/RedTint/node-web-project-template#client-advantages)
 
-  5. [Server Advantages](https://github.com/RedTint/node-web-project-template#server-advantages)
+  6. [Server Advantages](https://github.com/RedTint/node-web-project-template#server-advantages)
 
-  6. [Notes](https://github.com/RedTint/node-web-project-template#notes)
+  7. [Notes](https://github.com/RedTint/node-web-project-template#notes)
 
-  7. [Dependencies](https://github.com/RedTint/node-web-project-template#dependencies)
+  8. [Dependencies](https://github.com/RedTint/node-web-project-template#dependencies)
 
-  8. [Tasks/Issues/Future Updates](https://github.com/RedTint/node-web-project-template#tasks--issues--future-updates)
+  9. [Tasks/Issues/Future Updates](https://github.com/RedTint/node-web-project-template#tasks--issues--future-updates)
 
-  9. [Future Goals](https://github.com/RedTint/node-web-project-template#future-goals)
+  10. [Future Goals](https://github.com/RedTint/node-web-project-template#future-goals)
 
 2. The [Client Folder](https://github.com/RedTint/node-web-project-template/tree/master/source/client)
 
@@ -65,6 +67,11 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 - Send a GET request to `http://localhost:3000/api/example/getBooks`. Returns all books
 - Send a POST request to `http://localhost:3000/api/example/getBooks` with payload `{ "id": 1 }`. Returns book by ID.
 
+## Using Docker
+- Inside `./source/`, run `docker build -t project-name:latest .`.
+- Yes, there's a dot `.` included at the `docker build` command above.
+- Run `docker run --rm -it -p 3000:3000 project-name:latest`
+- You should be able to access `http://<docker-machine-ip>:3000`
 
 ## Client Advantages
 - We had **GULP** setup for you with **concatenation**, **minification** and **obfuscation** tasks available.
