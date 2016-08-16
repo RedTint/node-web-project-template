@@ -123,7 +123,7 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 
 ### DevOps Tasks
 
-- [ ] Create Dockerfile that can work with node-project-template
+- [x] Create Dockerfile that can work with node-project-template
 
 ### Repository Maintenance Tasks
 
