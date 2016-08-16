@@ -52,16 +52,7 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 
   6. [Gulp Tasks / Automation](https://github.com/RedTint/node-web-project-template/tree/master/source/client#gulp-tasks--automation)
 
-## How to Setup
-- Inside `./source/client/`, run 
-  - `npm install`
-  - `npm install bower -g`
-  - `npm install gulp -g`
-  - `gulp build`
-- Inside `./source/server/`, run 
-  - `npm install`
-
-3. The [Server Foldre](https://github.com/RedTint/node-web-project-template/tree/master/source/server)
+3. The [Server Folder](https://github.com/RedTint/node-web-project-template/tree/master/source/server)
 
   1. [What's available?](https://github.com/RedTint/node-web-project-template/tree/master/source/server)
 
@@ -71,6 +62,14 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 
   4. [Tasks](https://github.com/RedTint/node-web-project-template/tree/master/source/server#tasks)
 
+## How to Setup
+- Inside `./source/client/`, run 
+  - `npm install`
+  - `npm install bower -g`
+  - `npm install gulp -g`
+  - `gulp build`
+- Inside `./source/server/`, run 
+  - `npm install`
 
 ## How to Run
 - Inside `./source/server/`, run `npm start`.
