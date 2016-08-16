@@ -45,7 +45,7 @@ gulp.task('clean', function(){
 /* COPY FILES
 ====================================================== */
 
-gulp.task('copy-files', ['clean'], function() { 
+gulp.task('copy-files', function() { 
 
     var pipeline = [];
 
