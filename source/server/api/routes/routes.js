@@ -1,9 +1,9 @@
 'use strict';
 
-/* LOAD HANDLERS
+/* LOAD ROUTES
 ================================================*/
 
-var example = require('../handlers/example-handler');
+var example = require('./example-routes');
 
 
 /* API ROUTES
