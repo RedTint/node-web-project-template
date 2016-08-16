@@ -61,6 +61,16 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 - Inside `./source/server/`, run 
   - `npm install`
 
+3. The [Server Foldre](https://github.com/RedTint/node-web-project-template/tree/master/source/server)
+
+  1. [What's available?](https://github.com/RedTint/node-web-project-template/tree/master/source/server)
+
+  2. [How to Run](https://github.com/RedTint/node-web-project-template/tree/master/source/server#how-to-run)
+
+  3. [Dependencies](https://github.com/RedTint/node-web-project-template/tree/master/source/server#dependencies)
+
+  4. [Tasks](https://github.com/RedTint/node-web-project-template/tree/master/source/server#tasks)
+
 
 ## How to Run
 - Inside `./source/server/`, run `npm start`.
