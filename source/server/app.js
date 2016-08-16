@@ -8,7 +8,6 @@ var bodyParser      = require('body-parser');
 
 /* CONFIG
 ================================================*/
-
 var config = require('./configs/config.js');
 var ports = config.ports;
 
@@ -36,7 +35,6 @@ apiRoutes(app);
 
 /* MAIN
 ================================================*/
-
 console.log('# Running server in \'' + config.description + '\'');
 
 /* LAUNCH SERVER
