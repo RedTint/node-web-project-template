@@ -10,8 +10,6 @@ var bodyParser      = require('body-parser');
 ================================================*/
 
 var config = require('./configs/config.js');
-var clientPath = config.client.path;
-var clientAbsPath = __dirname + '/' + clientPath;
 var ports = config.ports;
 
 /* LOAD ROUTES
@@ -33,15 +31,13 @@ console.log('# Registering routes');
 clientRoute(app);
 apiRoutes(app);
 
+/* TODO: REGISTER SSL CERTIFICATE HERE
+================================================*/
+
 /* MAIN
 ================================================*/
 
 console.log('# Running server in \'' + config.description + '\'');
-
-// Add SSL Certificate Here
-// Run listen to https and http here.
-
-console.log('# Client Path: ' + clientPath);
 
 /* LAUNCH SERVER
 ================================================*/
