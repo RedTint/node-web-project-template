@@ -1,7 +1,7 @@
 # Node Web Project Template
 This project is a highly opinionated template for building node web projects. We've structured folders, created examples, setup automation and tossed in other important stuffs we feel will be needed during a node project startup. 
 
-Feel free to use it on your own accord. It does make starting a project faster so use it as you will. =)
+Feel free to use it on your own accord. It does make starting a project faster so use it as you will. Examples soon to come. =)
 
 Clone this branch and jump immediately to [How to Setup](https://github.com/RedTint/node-web-project-template#how-to-setup).
 
@@ -152,7 +152,5 @@ We intend to fork this repository and start creating problem-specific and framew
 
 - [ ] Create Angular Example
 - [ ] Create Bootstrap Example
-- [ ] Create Appbuilder Example
 - [ ] Create API Example using Sequelize
 - [ ] Create API Example using MongoDb
-- [ ] Create ETL Example using CRON
