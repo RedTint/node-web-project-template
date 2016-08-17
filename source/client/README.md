@@ -108,4 +108,4 @@ var files = [
 - Runs all above listed tasks
 
 # Issues:
-- [ ] gulp-clean causes error when `./client/dev/images` has other folders.
+- [x] gulp-clean causes error when `./client/dev/images` has other folders.

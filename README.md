@@ -125,7 +125,7 @@ The goal of this repository is to provide a [Walking Skeleton](http://c2.com/cgi
 - [x] build: concatenate scripts
 - [x] build: minify scripts
 - [x] build: uglify scripts
-- [ ] ISSUE: gulp-clean causes error when `./client/dev/images` has other folders
+- [x] ISSUE: gulp-clean causes error when `./client/dev/images` has other folders
 - [ ] test clone and build script
 
 ### Server Tasks
