@@ -34,13 +34,29 @@ apiRoutes(app);
 /* TODO: REGISTER SSL CERTIFICATE HERE
 ================================================*/
 
+/* RUN BOWER INSTALL
+   - Runs bower install from source/client
+================================================*/
+console.log('# Running \'client bower install\'');
+var bowerChild = spawn('bower', ['install'], { 'cwd': '../client' });
+
+bowerChild.stdout.on('data', function(data) {
+    if (data) {
+        console.log(data.toString());
+    }
+});
+
+bowerChild.stdout.on('close', function(data) {
+    console.log('> Client bower install done...')
+});
+
 /* RUN CLIENT GULP
    - Runs gulp from inside the source/client
      folder.
 ================================================*/
 console.log('# Running \'client build\'');
-
 process.chdir('../client');
+
 var gulpChild = spawn('gulp', ['build']);
 
 gulpChild.stdout.on('data', function(data) {
