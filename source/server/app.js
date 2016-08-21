@@ -5,6 +5,7 @@
 var express         = require('express');
 var app             = express();
 var bodyParser      = require('body-parser');
+var spawn           = require('child_process').spawn;
 
 /* CONFIG
 ================================================*/
@@ -33,15 +34,39 @@ apiRoutes(app);
 /* TODO: REGISTER SSL CERTIFICATE HERE
 ================================================*/
 
-/* MAIN
+/* RUN CLIENT GULP
+   - Runs gulp from inside the source/client
+     folder.
 ================================================*/
-console.log('# Running server in \'' + config.description + '\'');
+console.log('# Running \'client build\'');
 
-/* LAUNCH SERVER
-================================================*/
-app.listen(ports.http);
+process.chdir('../client');
+var gulpChild = spawn('gulp', ['build']);
 
-process.on('uncaughtException', function(err){
-    console.log('Uncaught Exception:');
-    console.log(err);
+gulpChild.stdout.on('data', function(data) {
+    if (data) {
+        console.log(data.toString());
+    }
 });
+
+gulpChild.stdout.on('close', function(data) {
+    console.log('> Client build done...')
+    startServer();
+});
+
+function startServer() {
+
+    /* MAIN
+    ================================================*/
+    console.log('# Running server in \'' + config.description + '\'');
+
+    /* LAUNCH SERVER
+    ================================================*/
+    app.listen(ports.http);
+
+    process.on('uncaughtException', function(err){
+        console.log('Uncaught Exception:');
+        console.log(err);
+    });
+ 
+}
